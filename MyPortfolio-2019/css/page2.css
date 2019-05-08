@@ -1,0 +1,225 @@
+body
+{
+    background-color:lightslategray;
+}
+.container
+{
+    display:grid;
+    font-family:arial;
+    grid-gap:4pt;
+    padding:10pt;
+    margin-left:40pt;
+    margin-left:45pt;
+    grid-template-areas:
+    'pImg  pImg pImg '
+    'personalInfo personalInfo personalInfo'
+    'academics academics academics'
+    'skills skills skills'
+    'courses courses courses'
+    'projects projects projects'
+    'resume resume resume'
+}
+
+.pImg
+{
+    grid-area: pImg;
+    margin-top:-40pt;
+}
+
+.personalInfo
+{
+    grid-area: personalInfo;
+
+}
+.academics
+{
+    grid-area:academics;
+    margin-top:-20pt;
+}
+.skills
+{
+    grid-area:skills;
+    margin-top:-20pt;
+
+}
+.courses
+{
+    grid-area:courses;
+    margin-top:-20pt;
+
+}
+.projects
+{
+    grid-area:projects;
+    margin-top:-20pt;
+    margin-top:-20pt;
+}
+.resume{
+    grid-area:resume;
+    margin-top:-10pt;
+}
+#footer
+{
+    color:white;
+    font-family:arial;
+   
+   
+
+}
+#btn_pInfo
+{
+    background-color: lightgreen;
+    width:150pt;
+    height:20pt;
+    font-size:14pt;
+}
+#btn_academics
+{
+    background-color: lightskyblue;
+    width:150pt;
+    height:20pt;
+    font-size:14pt;
+}
+#btn_skills
+{
+    background-color: lightsalmon;
+    width:150pt;
+    height:20pt;
+    font-size:14pt;
+}
+#btn_courses
+{
+    background-color: lightpink;
+    width:150pt;
+    height:20pt;
+    font-size:14pt;
+}
+#btn_projects
+{
+    background-color: lightseagreen;
+    width:150pt;
+    height:20pt;
+    font-size:14pt;
+}
+#resume
+{
+    background-color: lightblue;
+    width:150pt;
+    height:20pt;
+    font-size:14pt;
+}
+#profileName
+{
+    color:white;
+    font-size: 20pt;
+}
+#pImage
+{
+    border-radius:50%;
+    width:120pt;
+    height:120pt;
+    border:2pt solid yellow;
+}
+#hImage
+{
+    width:35pt;
+    height:35pt;
+    border:1.5pt solid yellow;
+    border-radius:50%;
+}
+#hLogo
+{
+    padding-top:10pt;
+    margin-left:15pt;
+}
+#btn_back
+{
+    float:right;
+}
+.tbl
+{
+    color:white;
+}
+.para
+{
+    font-weight: bold;
+}
+#strong{
+    color:navy;
+}
+@media screen and (orientation: Landscape)
+{
+.container
+{
+    display:grid;
+    font-family:arial;
+    grid-gap:4pt;
+    padding:10pt;
+    font-size:10pt;
+    grid-template-areas:
+    'pImg personalInfo academics'
+    'pImg skills courses'
+    'pImg projects resume'
+}
+#btn_pInfo
+{
+    background-color: lightgreen;
+    width:110pt;
+    height:20pt;
+    font-size:10pt;
+    margin-top:-20pt;
+    text-align:center;
+
+}
+#btn_academics
+{
+    background-color: lightskyblue;
+    width:110pt;
+    height:20pt;
+    font-size:10pt;
+    margin-top:-1pt;
+    text-align:center;
+}
+#btn_skills
+{
+    background-color: lightsalmon;
+    width:110pt;
+    height:20pt;
+    font-size:10pt;
+    text-align:center;
+}
+#btn_courses
+{
+ background-color: lightpink;
+    width:110pt;
+    height:20pt;
+    font-size:10pt;
+    text-align:center;
+
+}
+#btn_projects
+{
+    background-color: lightseagreen;
+    width:110pt;
+    height:20pt;
+    font-size:10pt;
+    text-align:center;
+
+}
+#resume
+{
+    background-color: lightblue;
+    width:110pt;
+    height:20pt;
+    font-size:10pt;
+}
+#profileName
+{
+    color:white;
+    font-size: 18pt;
+}
+.footer
+{
+    margin-top:-40pt;
+}
+}

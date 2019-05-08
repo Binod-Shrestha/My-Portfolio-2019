@@ -1,0 +1,51 @@
+{
+    "portfolio": {
+        "personalInformation": {
+            "title": "My Portfolio",
+            "firstName": "Binod",
+            "lastName": "Shrestha",
+            "DOB": "March 4, 1982",
+            "sex": "Male",
+            "maritalStatus": "Married",
+            "email": "shresthaBinod.softdev@gmail.com",
+            "profilePic": "Binod.jpg",
+            "interests": [
+                "Soccer",
+                " Badminton",
+                " Reading Books"
+            ],
+            "address": {
+                "street": "86 Yuile Court",
+                "city": "Brampton",
+                "province": "Ontario"
+            }
+        },
+        "education": {
+            "Intermediate": "Tribhuwan University, Nepal",
+            "Diploma": "Sheridan College,Canada",
+            "Bachelor": "Tribhuwan University, Nepal",
+            "Masters": "Tribhuwan University, Nepal"
+        },
+        "skills": {
+            "softSkills": "Punctual, Hardworking, Dedicated, Self-motivated",
+            "hardSkills": "C#, Java, SQL, HTML, jQUERY, AJAX, JSON, PHP, JAVASCRIPT",
+            "ide": "Visual Studio, Visual Studio Code, Notepad++, NetBeans, Eclipse, Visual Paradigm, draw.io, oracle sql developer,microsoft sql server management studio"
+        },
+        "courses": {
+            "semesterI": "Java-I, HTML5, CSS3, Algorithm",
+            "semesterII": "Java-OOP, JavaScript, PHP, DBMS, Shell Scripting,",
+            "semesterIII": "Java EE, RDBMS,System Analysis and Design, Networking-Switch & Routers ",
+            "semesterIV": "C#, Data Structure with C, ES6, jQuery, Angular, ASP.NET, Project Management"
+        },
+        "projects": {
+            "project1": "Vending Machine",
+            "project2": "Image Slider",
+            "project3": "Football Tournament",
+            "project4": "My Portfolio",
+            "project5": "Rental Apartment",
+            "project6": "Budget Planner",
+            "project7": "Discussion Forum",
+            "project8": "Pizza Order"
+        }
+    }
+}

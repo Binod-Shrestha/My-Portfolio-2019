@@ -1,0 +1,94 @@
+.container
+{
+    display:grid;
+    text-align:center;
+    font-family:arial;
+    background-color:lightslategray;
+    grid-template-areas:
+    'header header header header'
+    'main main main main'
+    'footer footer footer footer'
+}
+.header
+{
+grid-area:header;
+color:white;
+}
+.main
+{
+    grid-area:main;
+    padding:10pt;
+    color:yellow;
+    height:440pt;
+}
+.footer
+{
+    grid-area:footer;
+    color:white;
+}
+#my_name
+{
+    font-weight: bold;
+    font-size:20pt;
+}
+#profileImg
+{
+    border-radius:50%;
+    border : 1.5pt solid yellow;
+}
+#headTitle
+{
+    font-size:25pt;
+}
+/* Media query for portrait screen */
+@media screen and (orientation: Landscape)
+{
+.main
+{
+    grid-area:main;
+    padding:10pt;
+    color:yellow;
+    height:125pt;
+    margin-top:-20pt;
+    margin-bottom:30pt;
+}
+#profileImg
+{
+    border-radius:50%;
+    border : 1.5pt solid yellow;
+    width: 20%;
+}
+#my_name
+{
+    font-weight: bold;
+    font-size:15pt;
+}
+#headTitle
+{
+    font-size:20pt;
+}
+
+}
+@media screen and (orientation: portrait)
+{
+.main
+{
+    grid-area:main;
+    padding:10pt;
+    color:yellow;
+    height:310pt;
+    margin-top:-10pt;
+    margin-bottom:30pt;
+}
+#profileImg
+{
+    border-radius:50%;
+    border : 1.5pt solid yellow;
+    width: 65%;
+}
+#my_name
+{
+    font-weight: bold;
+    font-size:18pt;
+}
+}
